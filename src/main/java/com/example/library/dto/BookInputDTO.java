@@ -5,10 +5,8 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class BookDTO {
-
+public class BookInputDTO {
     private String name;
     private String description;
-    private Long id;
-    private String authorName;
+    private AuthorDTO authorDTO;
 }
